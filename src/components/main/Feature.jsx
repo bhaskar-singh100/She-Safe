@@ -7,7 +7,7 @@ export default function Feature() {
         <h2 className='w-[60vw] text-5xl font-mono leading-snug my-10'>The product is built with user-centric design and unmatched performance at its core</h2>
         <div 
             className=" 
-            bg-[url('https://files.oaiusercontent.com/file-by8RPlpxZAHzK75YggFHWRJe?se=2024-10-11T20%3A19%3A05Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D9e006721-b21e-452e-8cca-c240fbc8594a.webp&sig=GgypZjouHCmH9bV%2B3dpU3R2N%2BknFM1htN283w3YNhL0%3D')]
+            bg-[url('https://miro.medium.com/v2/resize:fit:828/format:webp/0*g1v2gh2jbe5NX8k8')]
             
              bg-cover rounded-2xl">
             <div className='relative z-10 text-white p-16 text-2xl font-semibold'>
