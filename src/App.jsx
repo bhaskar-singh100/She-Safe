@@ -1,8 +1,12 @@
+import Feature from "./components/main/Feature";
+import FeatureDisc from "./components/main/FeatureDisc";
+
 function App() {
   return (
-    <>
-      <h1>Let's start</h1>
-    </>
+    <div className="flex flex-col items-center text-white ">
+        <Feature/>
+        <FeatureDisc/>
+    </div>
   );
 }
 
