@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 
 /*body{
     background: rgb(175,120,199);
@@ -194,3 +195,8 @@ body{
     margin: 10px 30px;
 }
 
+=======
+body{
+    background: #000;
+}
+>>>>>>> 43582971b7913391a55bb93e9f40e1b3385bcc40
