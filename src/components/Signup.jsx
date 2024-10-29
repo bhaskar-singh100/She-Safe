@@ -9,15 +9,21 @@ const Signup = () => {
           <label htmlFor="name"></label>
           <input type="text" name="name" id="name" placeholder="Full Name" />
           <div className="gender">
-            <label htmlFor="gender">Gender:</label>
+            <label htmlFor="gender " className="genderh2">
+              Gender:
+            </label>
             <input type="radio" id="gender" name="gender" value="Male"></input>
+            <label for="male">Male</label>
+
             <input
               type="radio"
               id="gender"
               name="gender"
               value="Female"
             ></input>
+            <label for="male">Female</label>
             <input type="radio" id="gender" name="gender" value="Other"></input>
+            <label for="male">Other</label>
           </div>
 
           <label htmlFor="email"></label>
@@ -25,7 +31,7 @@ const Signup = () => {
 
           <label htmlFor="phone-number"></label>
           <input
-            type="number"
+            type="text"
             name="phone-number"
             id="phone-number"
             placeholder="Mobile number"

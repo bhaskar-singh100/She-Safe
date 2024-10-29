@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+
 import Login from "./Login";
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -41,7 +42,7 @@ const Navbar = () => {
                 <Link
                   to="/login"
                   className={menu === "login" ? "active" : ""}
-                  onClick={() => console.log("login clicked")}
+                  onClick={() => setMenu("login")}
                 >
                   Login
                 </Link>
