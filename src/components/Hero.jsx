@@ -4,7 +4,7 @@ import video from "../assets/video.mp4";
 const Hero = () => {
   return (
     <>
-      <div className="hero-image">
+      <div className="hero-image w-[98.8vw] ">
         <div className="hero">
           <h1>Your Safety,</h1>
           <h2>Our Priority</h2>

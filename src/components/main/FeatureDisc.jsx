@@ -3,7 +3,7 @@ import second from '../../assets/Laptop.png'
 
 export default function FeatureDisc() {
   return (
-    <div className='w-[70vw]'>
+    <div className='w-[98vw] pb-20 mb-4 bg-red-200 flex flex-col items-center'>
         <h2 className='text-5xl my-12'>Feature Details 🦒</h2>
 
 

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import Login from "./Login";
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
 
   return (
     <>
-      <div className="navbar-hero">
+      <div className="navbar-hero text-black">
         <div className="navbar-logo">
           <h1>Logo</h1>
           <div className="navbar">

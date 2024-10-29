@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 
 /*body{
     background: rgb(175,120,199);
@@ -14,8 +14,8 @@ body{
     margin: 0;
 }
 
-.hero-image{
-    background: linear-gradient(to bottom left, rgb(186, 116, 188), rgb(69, 27, 154));
+.hero-image{ 
+    background: linear-gradient(to bottom left, rgb(246, 154, 249), rgb(103, 39, 232));
 }
 .navbar-logo{
     display: flex;
@@ -53,7 +53,7 @@ body{
     color: #000;
     padding-top: 140px;
     height: 400px;
-    background: linear-gradient(to bottom left, rgb(186, 116, 188), rgb(69, 27, 154));
+    /* background: linear-gradient(to bottom left, rgb(186, 116, 188), rgb(69, 27, 154)); */
 }
 .hero h1{
     font-size: 100px;
@@ -195,8 +195,8 @@ body{
     margin: 10px 30px;
 }
 
-=======
+/* =======
 body{
     background: #000;
 }
->>>>>>> 43582971b7913391a55bb93e9f40e1b3385bcc40
+>>>>>>> 43582971b7913391a55bb93e9f40e1b3385bcc40 */

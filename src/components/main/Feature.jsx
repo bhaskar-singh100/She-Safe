@@ -3,13 +3,13 @@ import React from 'react'
 
 export default function Feature() {
   return (
-    <div className='w-[70vw]'>
+    <div className='w-[98vw] pb-20 mb-4 bg-orange-200 flex flex-col items-center' >
         <h2 className='w-[60vw] text-5xl font-serif leading-snug my-10'>The product is built with user-centric design and unmatched performance at its core</h2>
         <div 
             className=" 
             bg-[url('https://plus.unsplash.com/premium_photo-1689551670902-19b441a6afde?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]
             
-            bg-cover rounded-2xl">
+            bg-cover rounded-2xl shadow-2xl w-[70vw]">
             <div className='relative z-10 text-white p-6 text-2xl font-semibold'>
                 <div className='flex justify-between my-10 rounded-lg hover:text-black hover:backdrop-blur-3xl hover:shadow-2xl p-10'>
                     <h3>Feature 1</h3>
